@@ -4,3 +4,4 @@
 !*.d.ts
 !test.*.ts
 !tsconfig.json
+!README.md
