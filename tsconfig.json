@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "lib": [
+            "ESNext"
+        ],
+        "allowJs": false,
+        "strict": true,
+        "removeComments": true
+    },
+    "files": [
+        "test.dom.ts"
+    ],
+    "include": [
+        "include/types.dom.d.ts",
+        "include/window.dom.d.ts"
+    ]
+}
