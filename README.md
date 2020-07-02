@@ -5,12 +5,14 @@ built upon TypeScript's automatically generated `lib.dom.d.ts`
 
 ## What improvements it provides ?
 * Separated interface and type declarations in `types.dom.d.ts`
-* Explicit `namespace window` in `window.dom.d.ts`
+* Separated declarations for workers in `types.worker.d.ts`
+* Explicit `namespace window` for `DOM` in `window.dom.d.ts`
+* Explicit `namespace self` for `WebWorker` in `web.worker.d.ts`
 * Type safe `window.setTimeout` and `window.setInterval` signature
 * Maybe\<Improvement>: Optional semicolons removed to shrink size
     * Can be put back easily by some formatting tools
 
-## How do you (can I) generate it from original `lib.dom.d.ts` ?
+## How do you (can I) generate it from original `lib.dom.d.ts` (as well as `lib.webworker.d.ts) ?
 * This regular expression is used to extract interface and type declarations (and also comments):
 ```ts
 /(^(type|interface|declare type) [^\n]*(\{\n([^\n]+\n)*\}|;)|\/\/[^\n]*|\/\*.*?\*\/)/m

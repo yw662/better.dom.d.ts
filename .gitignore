@@ -2,6 +2,7 @@
 !.gitignore
 !include/
 !*.d.ts
+!test.*/
 !test.*.ts
 !tsconfig.json
 !README.md

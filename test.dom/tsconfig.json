@@ -13,7 +13,7 @@
         "test.dom.ts"
     ],
     "include": [
-        "include/types.dom.d.ts",
-        "include/window.dom.d.ts"
+        "../include/types.dom.d.ts",
+        "../include/window.dom.d.ts"
     ]
 }
