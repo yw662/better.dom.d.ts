@@ -4,7 +4,7 @@ A (maybe) better `d.ts` for `DOM` (or more),
 built upon TypeScript's automatically generated `lib.dom.d.ts`
 
 ## What improvements it provides ?
-* Seperated interface and type declarations in `types.dom.d.ts`
+* Separated interface and type declarations in `types.dom.d.ts`
 * Explicit `namespace window` in `window.dom.d.ts`
 * Type safe `window.setTimeout` and `window.setInterval` signature
 * Maybe\<Improvement>: Optional semicolons removed to shrink size
