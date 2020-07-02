@@ -12,7 +12,7 @@ built upon TypeScript's automatically generated `lib.dom.d.ts`
 * Maybe\<Improvement>: Optional semicolons removed to shrink size
     * Can be put back easily by some formatting tools
 
-## How do you (can I) generate it from original `lib.dom.d.ts` (as well as `lib.webworker.d.ts) ?
+## How do you (can I) generate it from original `lib.dom.d.ts` (as well as `lib.webworker.d.ts`) ?
 * This regular expression is used to extract interface and type declarations (and also comments):
 ```ts
 /(^(type|interface|declare type) [^\n]*(\{\n([^\n]+\n)*\}|;)|\/\/[^\n]*|\/\*.*?\*\/)/m
