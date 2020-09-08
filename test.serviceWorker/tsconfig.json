@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "lib": [
+            "ESNext"
+        ],
+        "allowJs": false,
+        "strict": true,
+        "removeComments": true
+    },
+    "files": [
+        "test.serviceWorker.ts"
+    ],
+    "include": [
+        "../include/types.worker.d.ts",
+        "../include/service.worker.d.ts"
+    ]
+}
