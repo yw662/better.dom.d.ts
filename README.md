@@ -10,7 +10,7 @@ built upon TypeScript's automatically generated `lib.dom.d.ts`
 * Explicit `namespace self` for `WebWorker` in `web.worker.d.ts`
 * Explicit `namespace self` for `serviceWorker` in `service.worker.d.ts`, which is not provided by original `d.ts` files.
 * Type safe `window.setTimeout` and `window.setInterval` signature
-* Maybe<Improvement>: Optional semicolons removed to shrink size
+* Maybe\<Improvement>: Optional semicolons removed to shrink size
     * Can be put back easily by some formatting tools
 
 ## How do you (can I) generate it from original `lib.dom.d.ts` (as well as `lib.webworker.d.ts`) ?
