@@ -30,7 +30,7 @@ interface AesGcmParams extends Algorithm {
 }
 interface AesKeyAlgorithm extends KeyAlgorithm {
     length: number;
-}
+ }
 interface AesKeyGenParams extends Algorithm {
     length: number;
 }
@@ -513,6 +513,9 @@ interface IntersectionObserverInit {
     root?: Element | null;
     rootMargin?: string;
     threshold?: number | number[];
+}
+interface ImportMeta {
+    readonly url: string;
 }
 interface JsonWebKey {
     alg?: string;
