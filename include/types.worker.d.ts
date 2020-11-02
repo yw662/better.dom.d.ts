@@ -195,6 +195,11 @@ interface ImageEncodeOptions {
     quality?: number
     type?: string
 }
+
+interface ImportMeta {
+    readonly url: string
+}
+
 interface JsonWebKey {
     alg?: string
     crv?: string
