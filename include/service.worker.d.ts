@@ -742,7 +742,7 @@ declare namespace self {
         readonly MAX_RENDERBUFFER_SIZE: GLenum
         readonly MAX_TEXTURE_IMAGE_UNITS: GLenum
         readonly MAX_TEXTURE_SIZE: GLenum
-        readonly MAX_constYING_VECTORS: GLenum
+        readonly MAX_VARYING_VECTORS: GLenum
         readonly MAX_VERTEX_ATTRIBS: GLenum
         readonly MAX_VERTEX_TEXTURE_IMAGE_UNITS: GLenum
         readonly MAX_VERTEX_UNIFORM_VECTORS: GLenum
@@ -1006,7 +1006,7 @@ declare namespace self {
         readonly MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS: GLenum
         readonly MAX_UNIFORM_BLOCK_SIZE: GLenum
         readonly MAX_UNIFORM_BUFFER_BINDINGS: GLenum
-        readonly MAX_constYING_COMPONENTS: GLenum
+        readonly MAX_VARYING_COMPONENTS: GLenum
         readonly MAX_VERTEX_OUTPUT_COMPONENTS: GLenum
         readonly MAX_VERTEX_UNIFORM_BLOCKS: GLenum
         readonly MAX_VERTEX_UNIFORM_COMPONENTS: GLenum
@@ -1125,7 +1125,7 @@ declare namespace self {
         readonly TRANSFORM_FEEDBACK_BUFFER_START: GLenum
         readonly TRANSFORM_FEEDBACK_PAUSED: GLenum
         readonly TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN: GLenum
-        readonly TRANSFORM_FEEDBACK_constYINGS: GLenum
+        readonly TRANSFORM_FEEDBACK_VARYINGS: GLenum
         readonly UNIFORM_ARRAY_STRIDE: GLenum
         readonly UNIFORM_BLOCK_ACTIVE_UNIFORMS: GLenum
         readonly UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES: GLenum
