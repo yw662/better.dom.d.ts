@@ -24,6 +24,7 @@ built upon TypeScript's automatically generated `lib.dom.d.ts`
 ```ts
 <A extends any[]>(handler: (...args: A) => void, timeout?: number, ...arguments: A): number;
 ```
+* Some other improvements many apply.
 
 ## How can I use it in my project ?
 
