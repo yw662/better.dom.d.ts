@@ -7858,9 +7858,9 @@ interface Location {
     /**
      * Reloads the current page.
      */
-    reload(): void;
+    reload(): never;
     /** @deprecated */
-    reload(forcedReload: boolean): void;
+    reload(forcedReload: boolean): never;
     /**
      * Removes the current page from the session history and navigates to the given URL.
      */
